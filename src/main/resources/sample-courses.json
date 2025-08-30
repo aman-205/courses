@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to Java",
+    "instructor": "John Smith",
+    "category": "Programming",
+    "duration": "6 weeks",
+    "price": 99.99
+  },
+  {
+    "id": 2,
+    "title": "Advanced Java",
+    "instructor": "Emily Davis",
+    "category": "Programming",
+    "duration": "8 weeks",
+    "price": 129.99
+  },
+  {
+    "id": 3,
+    "title": "Python for Beginners",
+    "instructor": "Michael Johnson",
+    "category": "Programming",
+    "duration": "5 weeks",
+    "price": 79.99
+  },
+  {
+    "id": 4,
+    "title": "Data Structures in C++",
+    "instructor": "Sarah Wilson",
+    "category": "Programming",
+    "duration": "7 weeks",
+    "price": 109.99
+  },
+  {
+    "id": 5,
+    "title": "Web Development with HTML & CSS",
+    "instructor": "David Brown",
+    "category": "Web Development",
+    "duration": "4 weeks",
+    "price": 59.99
+  },
+  {
+    "id": 6,
+    "title": "JavaScript Essentials",
+    "instructor": "Sophia Miller",
+    "category": "Web Development",
+    "duration": "5 weeks",
+    "price": 69.99
+  },
+  {
+    "id": 7,
+    "title": "ReactJS Fundamentals",
+    "instructor": "James Anderson",
+    "category": "Web Development",
+    "duration": "6 weeks",
+    "price": 99.99
+  },
+  {
+    "id": 8,
+    "title": "Node.js Backend Development",
+    "instructor": "Olivia Thomas",
+    "category": "Web Development",
+    "duration": "6 weeks",
+    "price": 89.99
+  },
+  {
+    "id": 9,
+    "title": "Spring Boot Microservices",
+    "instructor": "William Taylor",
+    "category": "Backend Development",
+    "duration": "8 weeks",
+    "price": 139.99
+  },
+  {
+    "id": 10,
+    "title": "REST API Development",
+    "instructor": "Isabella Martinez",
+    "category": "Backend Development",
+    "duration": "6 weeks",
+    "price": 99.99
+  },
+  {
+    "id": 11,
+    "title": "Machine Learning Basics",
+    "instructor": "Ethan Moore",
+    "category": "AI & ML",
+    "duration": "10 weeks",
+    "price": 149.99
+  },
+  {
+    "id": 12,
+    "title": "Deep Learning with TensorFlow",
+    "instructor": "Mia Jackson",
+    "category": "AI & ML",
+    "duration": "12 weeks",
+    "price": 199.99
+  },
+  {
+    "id": 13,
+    "title": "Natural Language Processing",
+    "instructor": "Alexander White",
+    "category": "AI & ML",
+    "duration": "8 weeks",
+    "price": 159.99
+  },
+  {
+    "id": 14,
+    "title": "Data Science with Python",
+    "instructor": "Amelia Harris",
+    "category": "Data Science",
+    "duration": "10 weeks",
+    "price": 149.99
+  },
+  {
+    "id": 15,
+    "title": "Statistics for Data Science",
+    "instructor": "Benjamin Clark",
+    "category": "Data Science",
+    "duration": "7 weeks",
+    "price": 109.99
+  },
+  {
+    "id": 16,
+    "title": "Big Data with Hadoop",
+    "instructor": "Charlotte Lewis",
+    "category": "Data Engineering",
+    "duration": "9 weeks",
+    "price": 139.99
+  },
+  {
+    "id": 17,
+    "title": "Apache Spark Essentials",
+    "instructor": "Henry Lee",
+    "category": "Data Engineering",
+    "duration": "8 weeks",
+    "price": 129.99
+  },
+  {
+    "id": 18,
+    "title": "SQL for Data Analysis",
+    "instructor": "Grace Walker",
+    "category": "Database",
+    "duration": "5 weeks",
+    "price": 79.99
+  },
+  {
+    "id": 19,
+    "title": "NoSQL Databases",
+    "instructor": "Daniel Hall",
+    "category": "Database",
+    "duration": "6 weeks",
+    "price": 89.99
+  },
+  {
+    "id": 20,
+    "title": "MongoDB Fundamentals",
+    "instructor": "Ella Allen",
+    "category": "Database",
+    "duration": "6 weeks",
+    "price": 99.99
+  },
+  {
+    "id": 21,
+    "title": "Cloud Computing with AWS",
+    "instructor": "Matthew Young",
+    "category": "Cloud",
+    "duration": "10 weeks",
+    "price": 159.99
+  },
+  {
+    "id": 22,
+    "title": "Azure Cloud Services",
+    "instructor": "Scarlett King",
+    "category": "Cloud",
+    "duration": "9 weeks",
+    "price": 149.99
+  },
+  {
+    "id": 23,
+    "title": "Google Cloud Platform",
+    "instructor": "Lucas Wright",
+    "category": "Cloud",
+    "duration": "9 weeks",
+    "price": 149.99
+  },
+  {
+    "id": 24,
+    "title": "DevOps with Docker",
+    "instructor": "Victoria Scott",
+    "category": "DevOps",
+    "duration": "8 weeks",
+    "price": 129.99
+  },
+  {
+    "id": 25,
+    "title": "CI/CD Pipelines with Jenkins",
+    "instructor": "David Green",
+    "category": "DevOps",
+    "duration": "7 weeks",
+    "price": 119.99
+  },
+  {
+    "id": 26,
+    "title": "Kubernetes for Beginners",
+    "instructor": "Hannah Adams",
+    "category": "DevOps",
+    "duration": "8 weeks",
+    "price": 129.99
+  },
+  {
+    "id": 27,
+    "title": "Cybersecurity Essentials",
+    "instructor": "Joseph Nelson",
+    "category": "Cybersecurity",
+    "duration": "6 weeks",
+    "price": 99.99
+  },
+  {
+    "id": 28,
+    "title": "Ethical Hacking",
+    "instructor": "Sofia Carter",
+    "category": "Cybersecurity",
+    "duration": "8 weeks",
+    "price": 139.99
+  },
+  {
+    "id": 29,
+    "title": "Network Security",
+    "instructor": "Samuel Mitchell",
+    "category": "Cybersecurity",
+    "duration": "7 weeks",
+    "price": 119.99
+  },
+  {
+    "id": 30,
+    "title": "Blockchain Fundamentals",
+    "instructor": "Zoe Perez",
+    "category": "Blockchain",
+    "duration": "8 weeks",
+    "price": 139.99
+  },
+  {
+    "id": 31,
+    "title": "Cryptocurrency Basics",
+    "instructor": "Anthony Roberts",
+    "category": "Blockchain",
+    "duration": "6 weeks",
+    "price": 99.99
+  },
+  {
+    "id": 32,
+    "title": "Smart Contracts with Ethereum",
+    "instructor": "Lily Turner",
+    "category": "Blockchain",
+    "duration": "7 weeks",
+    "price": 129.99
+  },
+  {
+    "id": 33,
+    "title": "Mobile App Development with Flutter",
+    "instructor": "Andrew Phillips",
+    "category": "Mobile Development",
+    "duration": "9 weeks",
+    "price": 149.99
+  },
+  {
+    "id": 34,
+    "title": "iOS Development with Swift",
+    "instructor": "Chloe Campbell",
+    "category": "Mobile Development",
+    "duration": "10 weeks",
+    "price": 159.99
+  },
+  {
+    "id": 35,
+    "title": "Android Development with Kotlin",
+    "instructor": "Ryan Evans",
+    "category": "Mobile Development",
+    "duration": "10 weeks",
+    "price": 159.99
+  },
+  {
+    "id": 36,
+    "title": "UI/UX Design Principles",
+    "instructor": "Layla Stewart",
+    "category": "Design",
+    "duration": "6 weeks",
+    "price": 89.99
+  },
+  {
+    "id": 37,
+    "title": "Graphic Design with Photoshop",
+    "instructor": "Christopher Barnes",
+    "category": "Design",
+    "duration": "8 weeks",
+    "price": 119.99
+  },
+  {
+    "id": 38,
+    "title": "3D Modeling with Blender",
+    "instructor": "Natalie Ross",
+    "category": "Design",
+    "duration": "10 weeks",
+    "price": 149.99
+  },
+  {
+    "id": 39,
+    "title": "Agile Project Management",
+    "instructor": "Dylan Kelly",
+    "category": "Management",
+    "duration": "6 weeks",
+    "price": 99.99
+  },
+  {
+    "id": 40,
+    "title": "Scrum Master Training",
+    "instructor": "Samantha Price",
+    "category": "Management",
+    "duration": "7 weeks",
+    "price": 109.99
+  },
+  {
+    "id": 41,
+    "title": "Digital Marketing Basics",
+    "instructor": "Logan Bennett",
+    "category": "Marketing",
+    "duration": "5 weeks",
+    "price": 79.99
+  },
+  {
+    "id": 42,
+    "title": "SEO Strategies",
+    "instructor": "Ella Gray",
+    "category": "Marketing",
+    "duration": "6 weeks",
+    "price": 89.99
+  },
+  {
+    "id": 43,
+    "title": "Content Marketing",
+    "instructor": "Nathan Rivera",
+    "category": "Marketing",
+    "duration": "6 weeks",
+    "price": 89.99
+  },
+  {
+    "id": 44,
+    "title": "Social Media Marketing",
+    "instructor": "Aria Cox",
+    "category": "Marketing",
+    "duration": "7 weeks",
+    "price": 99.99
+  },
+  {
+    "id": 45,
+    "title": "Financial Accounting",
+    "instructor": "Joshua Ramirez",
+    "category": "Finance",
+    "duration": "8 weeks",
+    "price": 119.99
+  },
+  {
+    "id": 46,
+    "title": "Investment Banking Basics",
+    "instructor": "Madison Howard",
+    "category": "Finance",
+    "duration": "9 weeks",
+    "price": 139.99
+  },
+  {
+    "id": 47,
+    "title": "Entrepreneurship Essentials",
+    "instructor": "Jack Ward",
+    "category": "Business",
+    "duration": "7 weeks",
+    "price": 109.99
+  },
+  {
+    "id": 48,
+    "title": "Business Analytics",
+    "instructor": "Mila Torres",
+    "category": "Business",
+    "duration": "8 weeks",
+    "price": 129.99
+  },
+  {
+    "id": 49,
+    "title": "Operations Management",
+    "instructor": "Owen Peterson",
+    "category": "Business",
+    "duration": "8 weeks",
+    "price": 129.99
+  },
+  {
+    "id": 50,
+    "title": "Leadership & Communication",
+    "instructor": "Harper Bailey",
+    "category": "Business",
+    "duration": "6 weeks",
+    "price": 99.99
+  }
+]
