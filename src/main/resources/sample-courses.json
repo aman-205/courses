@@ -1,402 +1,502 @@
 [
   {
-    "id": 1,
-    "title": "Introduction to Java",
-    "instructor": "John Smith",
+    "id": "1",
+    "title": "Java Basics",
     "category": "Programming",
-    "duration": "6 weeks",
-    "price": 99.99
+    "type": "Online",
+    "minAge": 16,
+    "maxAge": 35,
+    "price": 1500,
+    "nextSessionDate": "2025-09-05"
   },
   {
-    "id": 2,
-    "title": "Advanced Java",
-    "instructor": "Emily Davis",
+    "id": "2",
+    "title": "Java Advanced",
     "category": "Programming",
-    "duration": "8 weeks",
-    "price": 129.99
+    "type": "Online",
+    "minAge": 18,
+    "maxAge": 40,
+    "price": 2000,
+    "nextSessionDate": "2025-09-10"
   },
   {
-    "id": 3,
-    "title": "Python for Beginners",
-    "instructor": "Michael Johnson",
-    "category": "Programming",
-    "duration": "5 weeks",
-    "price": 79.99
+    "id": "3",
+    "title": "Python for Data Science",
+    "category": "Data Science",
+    "type": "Online",
+    "minAge": 18,
+    "maxAge": 45,
+    "price": 2500,
+    "nextSessionDate": "2025-10-01"
   },
   {
-    "id": 4,
-    "title": "Data Structures in C++",
-    "instructor": "Sarah Wilson",
-    "category": "Programming",
-    "duration": "7 weeks",
-    "price": 109.99
-  },
-  {
-    "id": 5,
-    "title": "Web Development with HTML & CSS",
-    "instructor": "David Brown",
-    "category": "Web Development",
-    "duration": "4 weeks",
-    "price": 59.99
-  },
-  {
-    "id": 6,
-    "title": "JavaScript Essentials",
-    "instructor": "Sophia Miller",
-    "category": "Web Development",
-    "duration": "5 weeks",
-    "price": 69.99
-  },
-  {
-    "id": 7,
-    "title": "ReactJS Fundamentals",
-    "instructor": "James Anderson",
-    "category": "Web Development",
-    "duration": "6 weeks",
-    "price": 99.99
-  },
-  {
-    "id": 8,
-    "title": "Node.js Backend Development",
-    "instructor": "Olivia Thomas",
-    "category": "Web Development",
-    "duration": "6 weeks",
-    "price": 89.99
-  },
-  {
-    "id": 9,
-    "title": "Spring Boot Microservices",
-    "instructor": "William Taylor",
-    "category": "Backend Development",
-    "duration": "8 weeks",
-    "price": 139.99
-  },
-  {
-    "id": 10,
-    "title": "REST API Development",
-    "instructor": "Isabella Martinez",
-    "category": "Backend Development",
-    "duration": "6 weeks",
-    "price": 99.99
-  },
-  {
-    "id": 11,
+    "id": "4",
     "title": "Machine Learning Basics",
-    "instructor": "Ethan Moore",
-    "category": "AI & ML",
-    "duration": "10 weeks",
-    "price": 149.99
+    "category": "AI/ML",
+    "type": "Offline",
+    "minAge": 20,
+    "maxAge": 40,
+    "price": 3000,
+    "nextSessionDate": "2025-10-15"
   },
   {
-    "id": 12,
+    "id": "5",
     "title": "Deep Learning with TensorFlow",
-    "instructor": "Mia Jackson",
-    "category": "AI & ML",
-    "duration": "12 weeks",
-    "price": 199.99
+    "category": "AI/ML",
+    "type": "Online",
+    "minAge": 21,
+    "maxAge": 50,
+    "price": 3500,
+    "nextSessionDate": "2025-11-01"
   },
   {
-    "id": 13,
-    "title": "Natural Language Processing",
-    "instructor": "Alexander White",
-    "category": "AI & ML",
-    "duration": "8 weeks",
-    "price": 159.99
+    "id": "6",
+    "title": "Web Development with React",
+    "category": "Web Development",
+    "type": "Online",
+    "minAge": 16,
+    "maxAge": 35,
+    "price": 1800,
+    "nextSessionDate": "2025-09-20"
   },
   {
-    "id": 14,
-    "title": "Data Science with Python",
-    "instructor": "Amelia Harris",
-    "category": "Data Science",
-    "duration": "10 weeks",
-    "price": 149.99
+    "id": "7",
+    "title": "Full Stack Development",
+    "category": "Web Development",
+    "type": "Offline",
+    "minAge": 18,
+    "maxAge": 40,
+    "price": 4000,
+    "nextSessionDate": "2025-12-05"
   },
   {
-    "id": 15,
-    "title": "Statistics for Data Science",
-    "instructor": "Benjamin Clark",
-    "category": "Data Science",
-    "duration": "7 weeks",
-    "price": 109.99
+    "id": "8",
+    "title": "Cybersecurity Fundamentals",
+    "category": "Security",
+    "type": "Online",
+    "minAge": 20,
+    "maxAge": 45,
+    "price": 2200,
+    "nextSessionDate": "2025-09-25"
   },
   {
-    "id": 16,
-    "title": "Big Data with Hadoop",
-    "instructor": "Charlotte Lewis",
-    "category": "Data Engineering",
-    "duration": "9 weeks",
-    "price": 139.99
-  },
-  {
-    "id": 17,
-    "title": "Apache Spark Essentials",
-    "instructor": "Henry Lee",
-    "category": "Data Engineering",
-    "duration": "8 weeks",
-    "price": 129.99
-  },
-  {
-    "id": 18,
-    "title": "SQL for Data Analysis",
-    "instructor": "Grace Walker",
-    "category": "Database",
-    "duration": "5 weeks",
-    "price": 79.99
-  },
-  {
-    "id": 19,
-    "title": "NoSQL Databases",
-    "instructor": "Daniel Hall",
-    "category": "Database",
-    "duration": "6 weeks",
-    "price": 89.99
-  },
-  {
-    "id": 20,
-    "title": "MongoDB Fundamentals",
-    "instructor": "Ella Allen",
-    "category": "Database",
-    "duration": "6 weeks",
-    "price": 99.99
-  },
-  {
-    "id": 21,
-    "title": "Cloud Computing with AWS",
-    "instructor": "Matthew Young",
-    "category": "Cloud",
-    "duration": "10 weeks",
-    "price": 159.99
-  },
-  {
-    "id": 22,
-    "title": "Azure Cloud Services",
-    "instructor": "Scarlett King",
-    "category": "Cloud",
-    "duration": "9 weeks",
-    "price": 149.99
-  },
-  {
-    "id": 23,
-    "title": "Google Cloud Platform",
-    "instructor": "Lucas Wright",
-    "category": "Cloud",
-    "duration": "9 weeks",
-    "price": 149.99
-  },
-  {
-    "id": 24,
-    "title": "DevOps with Docker",
-    "instructor": "Victoria Scott",
-    "category": "DevOps",
-    "duration": "8 weeks",
-    "price": 129.99
-  },
-  {
-    "id": 25,
-    "title": "CI/CD Pipelines with Jenkins",
-    "instructor": "David Green",
-    "category": "DevOps",
-    "duration": "7 weeks",
-    "price": 119.99
-  },
-  {
-    "id": 26,
-    "title": "Kubernetes for Beginners",
-    "instructor": "Hannah Adams",
-    "category": "DevOps",
-    "duration": "8 weeks",
-    "price": 129.99
-  },
-  {
-    "id": 27,
-    "title": "Cybersecurity Essentials",
-    "instructor": "Joseph Nelson",
-    "category": "Cybersecurity",
-    "duration": "6 weeks",
-    "price": 99.99
-  },
-  {
-    "id": 28,
+    "id": "9",
     "title": "Ethical Hacking",
-    "instructor": "Sofia Carter",
-    "category": "Cybersecurity",
-    "duration": "8 weeks",
-    "price": 139.99
+    "category": "Security",
+    "type": "Offline",
+    "minAge": 21,
+    "maxAge": 40,
+    "price": 2800,
+    "nextSessionDate": "2025-11-15"
   },
   {
-    "id": 29,
-    "title": "Network Security",
-    "instructor": "Samuel Mitchell",
-    "category": "Cybersecurity",
-    "duration": "7 weeks",
-    "price": 119.99
+    "id": "10",
+    "title": "AWS Cloud Practitioner",
+    "category": "Cloud Computing",
+    "type": "Online",
+    "minAge": 18,
+    "maxAge": 45,
+    "price": 2600,
+    "nextSessionDate": "2025-09-30"
   },
   {
-    "id": 30,
-    "title": "Blockchain Fundamentals",
-    "instructor": "Zoe Perez",
-    "category": "Blockchain",
-    "duration": "8 weeks",
-    "price": 139.99
+    "id": "11",
+    "title": "Azure Fundamentals",
+    "category": "Cloud Computing",
+    "type": "Online",
+    "minAge": 18,
+    "maxAge": 45,
+    "price": 2400,
+    "nextSessionDate": "2025-10-20"
   },
   {
-    "id": 31,
-    "title": "Cryptocurrency Basics",
-    "instructor": "Anthony Roberts",
-    "category": "Blockchain",
-    "duration": "6 weeks",
-    "price": 99.99
+    "id": "12",
+    "title": "Google Cloud Essentials",
+    "category": "Cloud Computing",
+    "type": "Offline",
+    "minAge": 20,
+    "maxAge": 50,
+    "price": 2700,
+    "nextSessionDate": "2025-12-10"
   },
   {
-    "id": 32,
-    "title": "Smart Contracts with Ethereum",
-    "instructor": "Lily Turner",
-    "category": "Blockchain",
-    "duration": "7 weeks",
-    "price": 129.99
+    "id": "13",
+    "title": "C++ Programming",
+    "category": "Programming",
+    "type": "Offline",
+    "minAge": 15,
+    "maxAge": 35,
+    "price": 1400,
+    "nextSessionDate": "2025-09-12"
   },
   {
-    "id": 33,
-    "title": "Mobile App Development with Flutter",
-    "instructor": "Andrew Phillips",
-    "category": "Mobile Development",
-    "duration": "9 weeks",
-    "price": 149.99
+    "id": "14",
+    "title": "C# for Beginners",
+    "category": "Programming",
+    "type": "Online",
+    "minAge": 16,
+    "maxAge": 38,
+    "price": 1600,
+    "nextSessionDate": "2025-09-18"
   },
   {
-    "id": 34,
-    "title": "iOS Development with Swift",
-    "instructor": "Chloe Campbell",
-    "category": "Mobile Development",
-    "duration": "10 weeks",
-    "price": 159.99
+    "id": "15",
+    "title": "JavaScript Essentials",
+    "category": "Programming",
+    "type": "Online",
+    "minAge": 15,
+    "maxAge": 30,
+    "price": 1300,
+    "nextSessionDate": "2025-09-22"
   },
   {
-    "id": 35,
-    "title": "Android Development with Kotlin",
-    "instructor": "Ryan Evans",
-    "category": "Mobile Development",
-    "duration": "10 weeks",
-    "price": 159.99
+    "id": "16",
+    "title": "Frontend Development",
+    "category": "Web Development",
+    "type": "Offline",
+    "minAge": 17,
+    "maxAge": 35,
+    "price": 2000,
+    "nextSessionDate": "2025-10-05"
   },
   {
-    "id": 36,
-    "title": "UI/UX Design Principles",
-    "instructor": "Layla Stewart",
-    "category": "Design",
-    "duration": "6 weeks",
-    "price": 89.99
+    "id": "17",
+    "title": "Backend Development with Node.js",
+    "category": "Web Development",
+    "type": "Online",
+    "minAge": 18,
+    "maxAge": 35,
+    "price": 2100,
+    "nextSessionDate": "2025-10-18"
   },
   {
-    "id": 37,
-    "title": "Graphic Design with Photoshop",
-    "instructor": "Christopher Barnes",
-    "category": "Design",
-    "duration": "8 weeks",
-    "price": 119.99
+    "id": "18",
+    "title": "Database Management with MySQL",
+    "category": "Databases",
+    "type": "Online",
+    "minAge": 18,
+    "maxAge": 40,
+    "price": 1700,
+    "nextSessionDate": "2025-09-28"
   },
   {
-    "id": 38,
-    "title": "3D Modeling with Blender",
-    "instructor": "Natalie Ross",
-    "category": "Design",
-    "duration": "10 weeks",
-    "price": 149.99
+    "id": "19",
+    "title": "PostgreSQL Advanced",
+    "category": "Databases",
+    "type": "Offline",
+    "minAge": 20,
+    "maxAge": 45,
+    "price": 1900,
+    "nextSessionDate": "2025-11-02"
   },
   {
-    "id": 39,
-    "title": "Agile Project Management",
-    "instructor": "Dylan Kelly",
-    "category": "Management",
-    "duration": "6 weeks",
-    "price": 99.99
+    "id": "20",
+    "title": "MongoDB for Developers",
+    "category": "Databases",
+    "type": "Online",
+    "minAge": 18,
+    "maxAge": 38,
+    "price": 2000,
+    "nextSessionDate": "2025-09-27"
   },
   {
-    "id": 40,
-    "title": "Scrum Master Training",
-    "instructor": "Samantha Price",
-    "category": "Management",
-    "duration": "7 weeks",
-    "price": 109.99
+    "id": "21",
+    "title": "DevOps Fundamentals",
+    "category": "DevOps",
+    "type": "Online",
+    "minAge": 20,
+    "maxAge": 40,
+    "price": 3000,
+    "nextSessionDate": "2025-10-25"
   },
   {
-    "id": 41,
+    "id": "22",
+    "title": "Kubernetes Essentials",
+    "category": "DevOps",
+    "type": "Offline",
+    "minAge": 22,
+    "maxAge": 45,
+    "price": 3500,
+    "nextSessionDate": "2025-11-12"
+  },
+  {
+    "id": "23",
+    "title": "Docker for Developers",
+    "category": "DevOps",
+    "type": "Online",
+    "minAge": 20,
+    "maxAge": 40,
+    "price": 2800,
+    "nextSessionDate": "2025-09-29"
+  },
+  {
+    "id": "24",
+    "title": "Agile and Scrum Basics",
+    "category": "Project Management",
+    "type": "Online",
+    "minAge": 18,
+    "maxAge": 50,
+    "price": 1600,
+    "nextSessionDate": "2025-09-21"
+  },
+  {
+    "id": "25",
+    "title": "Project Management Professional (PMP)",
+    "category": "Project Management",
+    "type": "Offline",
+    "minAge": 25,
+    "maxAge": 55,
+    "price": 5000,
+    "nextSessionDate": "2025-12-01"
+  },
+  {
+    "id": "26",
     "title": "Digital Marketing Basics",
-    "instructor": "Logan Bennett",
     "category": "Marketing",
-    "duration": "5 weeks",
-    "price": 79.99
+    "type": "Online",
+    "minAge": 18,
+    "maxAge": 45,
+    "price": 1500,
+    "nextSessionDate": "2025-09-19"
   },
   {
-    "id": 42,
-    "title": "SEO Strategies",
-    "instructor": "Ella Gray",
+    "id": "27",
+    "title": "SEO & SEM Strategies",
     "category": "Marketing",
-    "duration": "6 weeks",
-    "price": 89.99
+    "type": "Online",
+    "minAge": 20,
+    "maxAge": 50,
+    "price": 1700,
+    "nextSessionDate": "2025-10-08"
   },
   {
-    "id": 43,
+    "id": "28",
     "title": "Content Marketing",
-    "instructor": "Nathan Rivera",
     "category": "Marketing",
-    "duration": "6 weeks",
-    "price": 89.99
+    "type": "Offline",
+    "minAge": 21,
+    "maxAge": 45,
+    "price": 1800,
+    "nextSessionDate": "2025-11-18"
   },
   {
-    "id": 44,
-    "title": "Social Media Marketing",
-    "instructor": "Aria Cox",
-    "category": "Marketing",
-    "duration": "7 weeks",
-    "price": 99.99
+    "id": "29",
+    "title": "Artificial Intelligence in Business",
+    "category": "AI/ML",
+    "type": "Online",
+    "minAge": 25,
+    "maxAge": 50,
+    "price": 4000,
+    "nextSessionDate": "2025-12-08"
   },
   {
-    "id": 45,
-    "title": "Financial Accounting",
-    "instructor": "Joshua Ramirez",
-    "category": "Finance",
-    "duration": "8 weeks",
-    "price": 119.99
+    "id": "30",
+    "title": "Robotics Basics",
+    "category": "Robotics",
+    "type": "Offline",
+    "minAge": 18,
+    "maxAge": 35,
+    "price": 3500,
+    "nextSessionDate": "2025-11-28"
   },
   {
-    "id": 46,
-    "title": "Investment Banking Basics",
-    "instructor": "Madison Howard",
-    "category": "Finance",
-    "duration": "9 weeks",
-    "price": 139.99
+    "id": "31",
+    "title": "IoT Fundamentals",
+    "category": "IoT",
+    "type": "Online",
+    "minAge": 20,
+    "maxAge": 40,
+    "price": 2600,
+    "nextSessionDate": "2025-09-23"
   },
   {
-    "id": 47,
-    "title": "Entrepreneurship Essentials",
-    "instructor": "Jack Ward",
-    "category": "Business",
-    "duration": "7 weeks",
-    "price": 109.99
+    "id": "32",
+    "title": "Blockchain for Beginners",
+    "category": "Blockchain",
+    "type": "Online",
+    "minAge": 22,
+    "maxAge": 45,
+    "price": 3200,
+    "nextSessionDate": "2025-09-26"
   },
   {
-    "id": 48,
+    "id": "33",
+    "title": "Cryptocurrency Trading",
+    "category": "Blockchain",
+    "type": "Offline",
+    "minAge": 25,
+    "maxAge": 50,
+    "price": 5000,
+    "nextSessionDate": "2025-12-12"
+  },
+  {
+    "id": "34",
+    "title": "Data Analytics with Excel",
+    "category": "Data Science",
+    "type": "Online",
+    "minAge": 18,
+    "maxAge": 40,
+    "price": 1400,
+    "nextSessionDate": "2025-09-15"
+  },
+  {
+    "id": "35",
+    "title": "Data Visualization with Tableau",
+    "category": "Data Science",
+    "type": "Offline",
+    "minAge": 20,
+    "maxAge": 45,
+    "price": 2000,
+    "nextSessionDate": "2025-11-20"
+  },
+  {
+    "id": "36",
+    "title": "Big Data with Hadoop",
+    "category": "Data Science",
+    "type": "Online",
+    "minAge": 22,
+    "maxAge": 45,
+    "price": 3500,
+    "nextSessionDate": "2025-12-18"
+  },
+  {
+    "id": "37",
+    "title": "UI/UX Design Basics",
+    "category": "Design",
+    "type": "Online",
+    "minAge": 16,
+    "maxAge": 35,
+    "price": 1800,
+    "nextSessionDate": "2025-09-24"
+  },
+  {
+    "id": "38",
+    "title": "Graphic Design with Photoshop",
+    "category": "Design",
+    "type": "Offline",
+    "minAge": 18,
+    "maxAge": 40,
+    "price": 2000,
+    "nextSessionDate": "2025-11-06"
+  },
+  {
+    "id": "39",
+    "title": "3D Animation",
+    "category": "Design",
+    "type": "Online",
+    "minAge": 20,
+    "maxAge": 40,
+    "price": 2500,
+    "nextSessionDate": "2025-10-12"
+  },
+  {
+    "id": "40",
+    "title": "Mobile App Development (Android)",
+    "category": "Mobile Development",
+    "type": "Online",
+    "minAge": 18,
+    "maxAge": 35,
+    "price": 2200,
+    "nextSessionDate": "2025-09-17"
+  },
+  {
+    "id": "41",
+    "title": "Mobile App Development (iOS)",
+    "category": "Mobile Development",
+    "type": "Offline",
+    "minAge": 20,
+    "maxAge": 40,
+    "price": 2800,
+    "nextSessionDate": "2025-11-07"
+  },
+  {
+    "id": "42",
+    "title": "Game Development with Unity",
+    "category": "Game Development",
+    "type": "Online",
+    "minAge": 18,
+    "maxAge": 35,
+    "price": 2600,
+    "nextSessionDate": "2025-09-14"
+  },
+  {
+    "id": "43",
+    "title": "Game Design Principles",
+    "category": "Game Development",
+    "type": "Offline",
+    "minAge": 20,
+    "maxAge": 40,
+    "price": 3000,
+    "nextSessionDate": "2025-11-14"
+  },
+  {
+    "id": "44",
+    "title": "AR/VR Development",
+    "category": "Game Development",
+    "type": "Online",
+    "minAge": 21,
+    "maxAge": 40,
+    "price": 3500,
+    "nextSessionDate": "2025-12-15"
+  },
+  {
+    "id": "45",
     "title": "Business Analytics",
-    "instructor": "Mila Torres",
     "category": "Business",
-    "duration": "8 weeks",
-    "price": 129.99
+    "type": "Online",
+    "minAge": 25,
+    "maxAge": 50,
+    "price": 3800,
+    "nextSessionDate": "2025-10-03"
   },
   {
-    "id": 49,
-    "title": "Operations Management",
-    "instructor": "Owen Peterson",
+    "id": "46",
+    "title": "Financial Modelling",
     "category": "Business",
-    "duration": "8 weeks",
-    "price": 129.99
+    "type": "Offline",
+    "minAge": 23,
+    "maxAge": 50,
+    "price": 4200,
+    "nextSessionDate": "2025-11-30"
   },
   {
-    "id": 50,
-    "title": "Leadership & Communication",
-    "instructor": "Harper Bailey",
+    "id": "47",
+    "title": "Stock Market Basics",
+    "category": "Finance",
+    "type": "Online",
+    "minAge": 20,
+    "maxAge": 50,
+    "price": 1500,
+    "nextSessionDate": "2025-09-13"
+  },
+  {
+    "id": "48",
+    "title": "Investment Banking",
+    "category": "Finance",
+    "type": "Offline",
+    "minAge": 25,
+    "maxAge": 50,
+    "price": 6000,
+    "nextSessionDate": "2025-12-20"
+  },
+  {
+    "id": "49",
+    "title": "Accounting Basics",
+    "category": "Finance",
+    "type": "Online",
+    "minAge": 18,
+    "maxAge": 40,
+    "price": 1700,
+    "nextSessionDate": "2025-09-16"
+  },
+  {
+    "id": "50",
+    "title": "Entrepreneurship Essentials",
     "category": "Business",
-    "duration": "6 weeks",
-    "price": 99.99
+    "type": "Online",
+    "minAge": 21,
+    "maxAge": 45,
+    "price": 2500,
+    "nextSessionDate": "2025-10-11"
   }
 ]
